@@ -1,0 +1,48 @@
+# ==========================================
+# BACKEND: Java Spring Boot Services
+# ==========================================
+
+# Java
+*.java linguist-language=Java
+
+# Spring Boot Configs
+**/application*.yml linguist-language=Properties
+**/application*.properties linguist-language=Properties
+**/bootstrap*.yml linguist-language=Properties
+**/bootstrap*.properties linguist-language=Properties
+
+# Maven
+pom.xml linguist-language=Maven
+**/pom.xml linguist-language=Maven
+
+# Java
+main/src/main/java/** linguist-vendored=true
+
+# Java Resources
+**/src/main/resources/** linguist-vendored=true
+
+# ==========================================
+# FRONTEND: Next.js (Main App)
+# ==========================================
+
+# TypeScript/JavaScript
+frontend/main/**/*.ts linguist-language=TypeScript
+frontend/main/**/*.tsx linguist-detectable=false
+frontend/main/**/*.js linguist-language=JavaScript
+frontend/main/**/*.jsx linguist-language=Java
+frontend/main/**/*.css linguist-language=CSS
+frontend/main/**/*.scss linguist-language=SCSS
+
+
+# ==========================================
+# DOCKER & INFRASTRUCTURE
+# ==========================================
+
+# Docker
+Dockerfile linguist-language=Dockerfile
+**/Dockerfile linguist-language=Dockerfile
+*.dockerfile linguist-language=Dockerfile
+
+# Docker Compose
+docker-compose.yml linguist-language=YAML
+docker-compose*.yml linguist-language=YAML
