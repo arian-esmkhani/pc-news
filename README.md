@@ -2,6 +2,14 @@
 
 A complete web application with a **Spring Boot** backend API and a **Next.js** frontend, delivering dynamic technology-focused content — including articles, topics, and category-based sliders — with Redis caching, async processing, and pagination.
 
+**RUN**
+
+`docker-compose build`
+
+`docker-compose up -d`
+
+`docker-compose logs -f`
+
 ## Tech Stack
 
 ### Backend
